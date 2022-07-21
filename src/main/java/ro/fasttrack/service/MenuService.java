@@ -11,7 +11,7 @@ public class MenuService {
 
 public static void main(String[] args) throws IOException {
 
-        List<Product> orderList = new ArrayList<>();
+//        List<Product> orderList = new ArrayList<>();
         List<Product> menuItemList = new ArrayList<>();
 
         menuItemList.add(new Product("Coca-cola", 2.2,"carobonated"));
@@ -35,49 +35,49 @@ public static void main(String[] args) throws IOException {
         menuItemList.add(new Product("Apple cake", 15.6, "very good"));
 
 
-        int userCommandKey = 0;
-//        do {
-//            System.out.println(" " +
-//                    "1. Adauga Produs \n " +
-//                    "2. Vizualizeaza comanda \n " +
-//                    "3. Plaseaza comanda \n " +
-//                    "4. Cheama ospatar \n " +
-//                    "5. Cere Nota \n " +
-//                    "6. Zona feedback \n " +
-//                    "7. Exit");
+//        int userCommandKey = 0;
+////        do {
+////            System.out.println(" " +
+////                    "1. Adauga Produs \n " +
+////                    "2. Vizualizeaza comanda \n " +
+////                    "3. Plaseaza comanda \n " +
+////                    "4. Cheama ospatar \n " +
+////                    "5. Cere Nota \n " +
+////                    "6. Zona feedback \n " +
+////                    "7. Exit");
+////
+//        userCommandKey = readInputValue();
+//        switch (userCommandKey) {
+//        case 1:
+//        System.out.println("Alege produsul din meniu folosind numarul produsului");
+////                    createOrder();
+//        break;
+//        case 2:
+//        System.out.println("Comanda dumneavoastra:");
+//        break;
+//        case 3:
+//        System.out.println("Plaseaza comnda");
+//        break;
+//        case 4:
+//        System.out.println("Cheama ospatar");
+//        break;
+//        case 5:
+//        System.out.println("Cere nota");
+//        break;
+//        case 6:
+//        System.out.println("Zona de feeadback");
+//        break;
+//        }
+////        } while (userCommandKey < 7);
 //
-        userCommandKey = readInputValue();
-        switch (userCommandKey) {
-        case 1:
-        System.out.println("Alege produsul din meniu folosind numarul produsului");
-//                    createOrder();
-        break;
-        case 2:
-        System.out.println("Comanda dumneavoastra:");
-        break;
-        case 3:
-        System.out.println("Plaseaza comnda");
-        break;
-        case 4:
-        System.out.println("Cheama ospatar");
-        break;
-        case 5:
-        System.out.println("Cere nota");
-        break;
-        case 6:
-        System.out.println("Zona de feeadback");
-        break;
-        }
-//        } while (userCommandKey < 7);
-
-
-        }
-
-public static int readInputValue() {
-        Scanner sc = new Scanner(System.in);
-        int numb = sc.nextInt();
-        return numb;
-        }
+//
+       }
+//
+//public static int readInputValue() {
+//        Scanner sc = new Scanner(System.in);
+//        int numb = sc.nextInt();
+//        return numb;
+//        }
 
 //    public static void createOrder() {
 //        int menuItemID = 0;
