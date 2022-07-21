@@ -10,20 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4fd5d76-cb92-42f8-b08e-78372036f010" name="Changes" comment="com">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/menu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/menuDTO/AddProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/menu/OrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/menuDTO/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/menu/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/Postgrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/Postgrease.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/RepositInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/RepositInter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/OrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/OrderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/MenuService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/Postgrease.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/Postgrease.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/Postgrease.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/Postgrease.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/menu/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/addProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/addProduct.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +98,15 @@
       <recent name="D:\FTK\MenuApplication\menu\src\main\resources" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration name="Tomcat " type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.81" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.81" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="menu:war exploded">
@@ -118,7 +116,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="02f3a256-5a90-44e1-b572-15d3b65422a3" />
+        <option name="BASE_DIRECTORY_NAME" value="0561d814-dc4c-45ad-99a1-713fa62ac94a" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -126,7 +124,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="65333" />
+        <option name="DEBUG_PORT" value="57745" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -212,6 +210,7 @@
       <workItem from="1658401734721" duration="8000" />
       <workItem from="1658402318302" duration="2097000" />
       <workItem from="1658404470157" duration="13433000" />
+      <workItem from="1658429157096" duration="2289000" />
     </task>
     <task id="LOCAL-00001" summary="OK">
       <created>1658399028477</created>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658428023263</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="com">
+      <created>1658429489812</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658429489812</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,21 +283,5 @@
     <MESSAGE value="commit" />
     <MESSAGE value="com" />
     <option name="LAST_COMMIT_MESSAGE" value="com" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddOrder.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddProduct.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
