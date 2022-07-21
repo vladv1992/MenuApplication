@@ -10,10 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4fd5d76-cb92-42f8-b08e-78372036f010" name="Changes" comment="OK">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/add product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/OrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/OrderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/ProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/ProductView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addProduct.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/order view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/orderView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/productView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/OrderView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/OrderView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/ProductView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/ProductView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/OrderView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/OrderView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/ProductView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/ProductView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/addOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/addOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/addProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +191,7 @@
       <workItem from="1658351858316" duration="1171000" />
       <workItem from="1658395630634" duration="62000" />
       <workItem from="1658398235288" duration="1218000" />
-      <workItem from="1658399490918" duration="312000" />
+      <workItem from="1658399490918" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="OK">
       <created>1658399028477</created>
@@ -188,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658399028477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OK">
+      <created>1658399958853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658399958853</updated>
+    </task>
+    <task id="LOCAL-00003" summary="OK">
+      <created>1658400041022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658400041022</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

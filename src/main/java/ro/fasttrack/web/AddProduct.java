@@ -11,7 +11,7 @@ import java.awt.datatransfer.DataFlavor;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/addproductbbbbbbbbbbbb")
+@WebServlet("/addProduct")
 public class AddProduct extends HttpServlet {
 
     OperationService operationServic = new OperationService();
