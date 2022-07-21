@@ -12,6 +12,9 @@ public class OrderView extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doGet(req, resp);
+        // data base connection sa iei toate orders intr o lista
+
+        //
     }
 
     @Override

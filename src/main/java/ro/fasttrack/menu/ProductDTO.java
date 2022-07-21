@@ -1,4 +1,4 @@
-package ro.fasttrack.menuDTO;
+package ro.fasttrack.menu;
 
 public record ProductDTO (
         String name,
