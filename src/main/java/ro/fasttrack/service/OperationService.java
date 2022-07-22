@@ -6,8 +6,17 @@ import ro.fasttrack.menu.ProductDTO;
 import ro.fasttrack.repozitory.Postgrease;
 import ro.fasttrack.repozitory.RepositInter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class OperationService {
     private RepositInter reposit = new Postgrease();
+
+    public List<OrderDTO> list(){
+        List<OrderDTO> orderDTOS = reposit.findAll();
+
+            return orderDTOS;
+    }
 
     public void saveProdact(String name, double price, String description) {
 

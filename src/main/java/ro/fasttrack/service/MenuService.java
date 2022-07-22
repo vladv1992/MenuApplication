@@ -12,30 +12,30 @@ public class MenuService {
 public static void main(String[] args) throws IOException {
 
 //        List<Product> orderList = new ArrayList<>();
-        List<Product> menuItemList = new ArrayList<>();
-
-        menuItemList.add(new Product("Coca-cola", 2.2,"carobonated"));
-        menuItemList.add(new Product("Fanta", 2.3,"carobonated"));
-        menuItemList.add(new Product("Cappy", 2.5,"carobonated"));
-
-        System.out.println("   ");
-        menuItemList.add(new Product("Espresso",3.3,"coffe from Columbia "));
-        menuItemList.add(new Product("Cappuccino", 5.5,  "coffe from Egipt and milk natural"));
-        menuItemList.add(new Product("Latte Macchiato", 4.4,  "coffe from USA and alomd milk"));
-
-
-        System.out.println("   ");
-        menuItemList.add(new Product("Stew meat", 12.3,  "let your mouth water"));
-        menuItemList.add(new Product("Potatoes ", 56.5,  "let your mouth water"));
-        menuItemList.add(new Product("Vegetarian food", 15.4,  "let your mouth water"));
-
-        System.out.println("   ");
-        menuItemList.add(new Product("Pancakes", 15.4, "very good"));
-        menuItemList.add(new Product("Mix fruit", 17.4,  "very good"));
-        menuItemList.add(new Product("Apple cake", 15.6, "very good"));
-
-
-//        int userCommandKey = 0;
+//        List<Product> menuItemList = new ArrayList<>();
+//
+//        menuItemList.add(new Product("Coca-cola", 2.2,"carobonated"));
+//        menuItemList.add(new Product("Fanta", 2.3,"carobonated"));
+//        menuItemList.add(new Product("Cappy", 2.5,"carobonated"));
+//
+//        System.out.println("   ");
+//        menuItemList.add(new Product("Espresso",3.3,"coffe from Columbia "));
+//        menuItemList.add(new Product("Cappuccino", 5.5,  "coffe from Egipt and milk natural"));
+//        menuItemList.add(new Product("Latte Macchiato", 4.4,  "coffe from USA and alomd milk"));
+//
+//
+//        System.out.println("   ");
+//        menuItemList.add(new Product("Stew meat", 12.3,  "let your mouth water"));
+//        menuItemList.add(new Product("Potatoes ", 56.5,  "let your mouth water"));
+//        menuItemList.add(new Product("Vegetarian food", 15.4,  "let your mouth water"));
+//
+//        System.out.println("   ");
+//        menuItemList.add(new Product("Pancakes", 15.4, "very good"));
+//        menuItemList.add(new Product("Mix fruit", 17.4,  "very good"));
+//        menuItemList.add(new Product("Apple cake", 15.6, "very good"));
+//
+//
+////        int userCommandKey = 0;
 ////        do {
 ////            System.out.println(" " +
 ////                    "1. Adauga Produs \n " +

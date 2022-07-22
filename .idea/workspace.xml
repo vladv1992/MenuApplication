@@ -10,11 +10,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4fd5d76-cb92-42f8-b08e-78372036f010" name="Changes" comment="com">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationNotSupported.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/menu/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/menu/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/Postgrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/Postgrease.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/RepositInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/RepositInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/OrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/OrderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderView.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/orderView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/DTO/OrderDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/DTO/ProductDTO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/Postgrease.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/Postgrease.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/RepositInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/RepositInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/OperationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/OperationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/AddOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/AddOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/OrderView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/OrderView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/DTO/OrderDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/DTO/ProductDTO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/Postgrease.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/Postgrease.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/menu/addProduct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/RepositInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/RepositInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/OperationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/OperationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/AddOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/AddOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/OrderView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/OrderView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +50,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -76,7 +102,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.32068965&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
@@ -88,6 +115,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ro.fasttrack.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\FTK\MenuApplication\menu\lib" />
     </key>
@@ -106,7 +136,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.81" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="To" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.81" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="menu:war exploded">
@@ -116,7 +146,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="0561d814-dc4c-45ad-99a1-713fa62ac94a" />
+        <option name="BASE_DIRECTORY_NAME" value="b04274e6-55f1-44a0-8a6b-7afbb457cbec" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -124,7 +154,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="57745" />
+        <option name="DEBUG_PORT" value="65233" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -210,7 +240,10 @@
       <workItem from="1658401734721" duration="8000" />
       <workItem from="1658402318302" duration="2097000" />
       <workItem from="1658404470157" duration="13433000" />
-      <workItem from="1658429157096" duration="2289000" />
+      <workItem from="1658429157096" duration="3620000" />
+      <workItem from="1658432994118" duration="3423000" />
+      <workItem from="1658436472299" duration="2953000" />
+      <workItem from="1658471948777" duration="16188000" />
     </task>
     <task id="LOCAL-00001" summary="OK">
       <created>1658399028477</created>
@@ -261,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658429489812</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="com">
+      <created>1658431638434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658431638434</updated>
+    </task>
+    <task id="LOCAL-00009" summary="com">
+      <created>1658431673514</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658431673514</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,10 +1,9 @@
 package ro.fasttrack.menu;
 
-public record ProductDTO (
+public record ProductDTO(
         String name,
-
         double price,
-
         String description
 
-){}
+) {
+}

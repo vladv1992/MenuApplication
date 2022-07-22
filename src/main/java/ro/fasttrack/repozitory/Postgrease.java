@@ -5,11 +5,13 @@ import ro.fasttrack.menu.OrderDTO;
 import ro.fasttrack.menu.ProductDTO;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Postgrease implements RepositInter {
-     final static String URL = "jdbc:postgresql://localhost:5432/Menu";
-     final static String USERNAME = "postgres";
-     final static String PASSWORD = "1234";
+    final static String URL = "jdbc:postgresql://localhost:5432/Menu";
+    final static String USERNAME = "postgres";
+    final static String PASSWORD = "1234";
 
 
     public Postgrease() {
@@ -22,9 +24,9 @@ public class Postgrease implements RepositInter {
 
     @Override
     public void save(ProductDTO l) {
-        try(Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            // 4. create a query statement
-            PreparedStatement pSt = conn.prepareStatement("INSERT INTO product(name, price, descriptions) VALUES (?,?,?)")){
+        try (Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+             // 4. create a query statement
+             PreparedStatement pSt = conn.prepareStatement("INSERT INTO product(name, price, descriptions) VALUES (?,?,?)")) {
 //            Class.forName("org.postgresql.Driver");
             // 2. define connection params to db
 
@@ -47,10 +49,10 @@ public class Postgrease implements RepositInter {
     @Override
     public void save(OrderDTO r) {
 
-        try(Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        try (Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
-            // 4. create a query statement
-            PreparedStatement pSt = conn.prepareStatement("INSERT INTO order(name_order, table_order, price_order) VALUES (?,?,?)")){
+             // 4. create a query statement
+             PreparedStatement pSt = conn.prepareStatement("INSERT INTO command(name_order, table_order, price_order) VALUES (?,?,?)")) {
 //            Class.forName("org.postgresql.Driver");
 
             // 2. define connection params to db
@@ -71,6 +73,34 @@ public class Postgrease implements RepositInter {
         }
 
 
+    }
+
+    @Override
+    public List<OrderDTO> findAll() {
+
+        try (// 3. obtain a connection
+             Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+
+             // 4. create a query statement
+             Statement st = conn.createStatement();
+
+             // 5. execute a query
+             ResultSet rs = st.executeQuery("SELECT * FROM command");
+
+             // 6. iterate the result set and print the values
+        ) {
+            List<OrderDTO> operations = new ArrayList<>();
+            while (rs.next()) {
+                String name_order = rs.getString("name_order");
+                int table_order = rs.getInt("table_order");
+                double price_order = rs.getDouble("price_order");
+                operations.add(new OrderDTO(name_order, table_order, price_order));
+            }
+            return operations;
+        } catch (SQLException e) {
+//            throw new RepositoryAccessException(e);
+        }
+        return null;
     }
 
 
