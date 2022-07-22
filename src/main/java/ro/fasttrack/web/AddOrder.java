@@ -1,6 +1,7 @@
 package ro.fasttrack.web;
 
 import ro.fasttrack.service.OperationService;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,30 +16,7 @@ public class AddOrder extends HttpServlet {
     OperationService operationService = new OperationService();
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = resp.getWriter();
-        out.println("<head>");
-        out.println("<title>Istoric </title>");
-        out.println("</head>");
-
-        out.println("<body>");
-        out.println("Istoric:<br />");
-
-//        out.println("result is: <b>"+name_order+"</b><br/>");
-//        out.println("result is: <b>"+table_order+"</b><br/>");
-//        out.println("result is: <b>"+price_order+"</b><br/>");
-        out.println("<a href='http://localhost:8080/menu_war_exploded/addOrder.html'>Go Back</a>");
-        out.println("</body>");
-        out.close();
-
-    }
-
-
-
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp)throws NumberFormatException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws NumberFormatException, IOException {
 
         String name_order = req.getParameter("name_order");
         int table_order = Integer.parseInt(req.getParameter("table_order"));
@@ -46,22 +24,22 @@ public class AddOrder extends HttpServlet {
 
 
         try {
-            operationService.saveOrder(name_order,table_order, Double.parseDouble(price_order));
+            operationService.saveOrder(name_order, table_order, Double.parseDouble(price_order));
             resp.setContentType("text/html;charset=UTF-8");
             PrintWriter out = resp.getWriter();
             out.println("<h2>Product </h2>");
 
-            out.println("result is: <b>" + name_order + "</b><br/>");
-            out.println("result is: <b>" + table_order + "</b><br/>");
-            out.println("result is: <b>" + price_order + "</b><br/>");
+            out.println("product is: <b>" + name_order + "</b><br/>");
+            out.println("product is: <b>" + table_order + "</b><br/>");
+            out.println("product is: <b>" + price_order + "</b><br/>");
             out.println("<a href='/menu_war_exploded/'>Go Back</a>");
 
         } catch (Exception e) {
-            endRequestWithError(resp,"number is not correct");
-
+            throw new RuntimeException(e);
         }
 
     }
+
     private void endRequestWithError(HttpServletResponse resp, String message) throws IOException {
         PrintWriter writer = resp.getWriter();
         writer.write(message);
@@ -74,6 +52,7 @@ public class AddOrder extends HttpServlet {
     public void destroy() {
         super.destroy();
     }
+
     @Override
     public void init() throws ServletException {
         super.init();

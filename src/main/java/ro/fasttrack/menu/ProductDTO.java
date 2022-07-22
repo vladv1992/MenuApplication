@@ -3,7 +3,7 @@ package ro.fasttrack.menu;
 public record ProductDTO(
         String name,
         double price,
-        String description
+        String descriptions
 
 ) {
 }

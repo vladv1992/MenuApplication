@@ -9,38 +9,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4fd5d76-cb92-42f8-b08e-78372036f010" name="Changes" comment="com">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationNotSupported.java" afterDir="false" />
+    <list default="true" id="d4fd5d76-cb92-42f8-b08e-78372036f010" name="Changes" comment="amend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/domaine/Product.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/menu/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/menu/ProductDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/Postgrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/Postgrease.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/RepositInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/RepositInter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/MenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationNotSupported.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/service/OperationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/AddProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/OrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/OrderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/ProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/fasttrack/web/ProductView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/addOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addProduct.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/orderView.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/orderView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/DTO/OrderDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/DTO/ProductDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/productView.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/productView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/domaine/Product.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/Postgrease.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/Postgrease.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/RepositInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/repozitory/RepositInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/MenuService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/OperationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/service/OperationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/AddOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/AddOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/OrderView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/OrderView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/DTO/OrderDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/DTO/ProductDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/ProductView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/fasttrack/web/ProductView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/domaine/Product.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/Postgrease.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/Postgrease.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/RepositInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/repozitory/RepositInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/MenuService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/OperationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/service/OperationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/AddOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/AddOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/OrderView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/OrderView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/ProductView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/menu/WEB-INF/classes/ro/fasttrack/web/ProductView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +68,6 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/ro/fasttrack/domaine/Product.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ro/fasttrack/menu/OrderDTO.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/Postgrease.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ro/fasttrack/repozitory/RepositInter.java" root0="FORCE_HIGHLIGHTING" />
@@ -90,30 +96,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Lab6-myCalculator-won6/src/main/java/ro/fasttrack/lab17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.32068965&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/Lab6-myCalculator-won6/src/main/java/ro/fasttrack/lab17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.32068965",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PostgreSQL&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ro.fasttrack.service" />
@@ -215,6 +221,11 @@
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="POSTGRES_PASSWORD" />
+          <option name="VALUE" value="1234" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,7 +254,8 @@
       <workItem from="1658429157096" duration="3620000" />
       <workItem from="1658432994118" duration="3423000" />
       <workItem from="1658436472299" duration="2953000" />
-      <workItem from="1658471948777" duration="16188000" />
+      <workItem from="1658471948777" duration="25826000" />
+      <workItem from="1658513100629" duration="6322000" />
     </task>
     <task id="LOCAL-00001" summary="OK">
       <created>1658399028477</created>
@@ -308,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658431673514</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="amend">
+      <created>1658503517168</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658503517168</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +348,7 @@
     <MESSAGE value="OK" />
     <MESSAGE value="commit" />
     <MESSAGE value="com" />
-    <option name="LAST_COMMIT_MESSAGE" value="com" />
+    <MESSAGE value="amend" />
+    <option name="LAST_COMMIT_MESSAGE" value="amend" />
   </component>
 </project>

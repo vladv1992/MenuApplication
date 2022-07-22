@@ -7,7 +7,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.awt.datatransfer.DataFlavor;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -15,32 +14,29 @@ import java.io.PrintWriter;
 public class AddProduct extends HttpServlet {
 
     OperationService operationServic = new OperationService();
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
-    }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String  nProduct = req.getParameter("name");
-        String  nPrice= req.getParameter("price");
-        String nDescripion = req.getParameter("description");
+        String name = req.getParameter("name");
+        double price = Double.parseDouble(req.getParameter("price"));
+        String descriptions = req.getParameter("descriptions");
 
         try {
-            operationServic.saveProdact(nProduct, Double.parseDouble(nPrice),nDescripion);
+            operationServic.saveProdact(name, price, descriptions);
 
             resp.setContentType("text/html;charset=UTF-8");
             PrintWriter out = resp.getWriter();
-            out.println("<h2>Prodact </h2>");
+            out.println("<h2>Product </h2>");
 
-            out.println("prodact is: <b>" + nProduct + "</b><br/>");
-            out.println("prodact is: <b>" + nPrice + "</b><br/>");
-            out.println("prodact is: <b>" + nDescripion + "</b><br/>");
-            out.println("<a href='/calculator_war_exploded/'>Go Back</a>");
+            out.println("product is: <b>" + name + "</b><br/>");
+            out.println("product is: <b>" + price + "</b><br/>");
+            out.println("product is: <b>" + descriptions + "</b><br/>");
+            out.println("<a href='/menu_war_exploded/'>Go Back</a>");
 
             out.close();
-        } catch (Exception e){
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
 
     }

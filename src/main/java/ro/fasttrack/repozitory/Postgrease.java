@@ -1,9 +1,7 @@
 package ro.fasttrack.repozitory;
 
-
 import ro.fasttrack.menu.OrderDTO;
 import ro.fasttrack.menu.ProductDTO;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,30 +9,25 @@ import java.util.List;
 public class Postgrease implements RepositInter {
     final static String URL = "jdbc:postgresql://localhost:5432/Menu";
     final static String USERNAME = "postgres";
-    final static String PASSWORD = "1234";
+    final static String PASSWORD = System.getenv("POSTGRES_PASSWORD");
 
 
     public Postgrease() {
         try {
             Class.forName("org.postgresql.Driver");
         } catch (ClassNotFoundException e) {
-//           throw new RepAccessEception(e);
         }
     }
 
     @Override
     public void save(ProductDTO l) {
         try (Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-             // 4. create a query statement
-             PreparedStatement pSt = conn.prepareStatement("INSERT INTO product(name, price, descriptions) VALUES (?,?,?)")) {
-//            Class.forName("org.postgresql.Driver");
-            // 2. define connection params to db
 
-            // 3. obtain a connection
-            //so we have 3 params
+             PreparedStatement pSt = conn.prepareStatement("INSERT INTO product(name, price, descriptions) VALUES (?,?,?)")) {
+
             pSt.setString(1, l.name());
             pSt.setDouble(2, l.price());
-            pSt.setString(3, l.description());
+            pSt.setString(3, l.descriptions());
 
             int rowsInserted = pSt.executeUpdate();
             System.out.println("Inserted " + rowsInserted);
@@ -43,7 +36,6 @@ public class Postgrease implements RepositInter {
             throw new RuntimeException(e);
         }
 
-
     }
 
     @Override
@@ -51,15 +43,8 @@ public class Postgrease implements RepositInter {
 
         try (Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
-             // 4. create a query statement
              PreparedStatement pSt = conn.prepareStatement("INSERT INTO command(name_order, table_order, price_order) VALUES (?,?,?)")) {
-//            Class.forName("org.postgresql.Driver");
 
-            // 2. define connection params to db
-
-
-            // 3. obtain a connection
-            //so we have 3 params
             pSt.setString(1, r.name_order());
             pSt.setInt(2, r.table_order());
             pSt.setDouble(3, r.price_order());
@@ -72,36 +57,53 @@ public class Postgrease implements RepositInter {
             throw new RuntimeException(e);
         }
 
-
     }
 
     @Override
     public List<OrderDTO> findAll() {
 
-        try (// 3. obtain a connection
-             Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        try (Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
-             // 4. create a query statement
              Statement st = conn.createStatement();
 
-             // 5. execute a query
              ResultSet rs = st.executeQuery("SELECT * FROM command");
 
-             // 6. iterate the result set and print the values
         ) {
-            List<OrderDTO> operations = new ArrayList<>();
+            List<OrderDTO> orderDTOS = new ArrayList<>();
             while (rs.next()) {
                 String name_order = rs.getString("name_order");
                 int table_order = rs.getInt("table_order");
                 double price_order = rs.getDouble("price_order");
-                operations.add(new OrderDTO(name_order, table_order, price_order));
+                orderDTOS.add(new OrderDTO(name_order, table_order, price_order));
             }
-            return operations;
+            return orderDTOS;
         } catch (SQLException e) {
-//            throw new RepositoryAccessException(e);
+            throw new RuntimeException(e);
         }
-        return null;
+
     }
 
+    @Override
+    public List<ProductDTO> findAlll() {
+        try (Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+
+             Statement st = conn.createStatement();
+
+             ResultSet rs = st.executeQuery("SELECT * FROM product");
+
+        ) {
+            List<ProductDTO> productDTOList = new ArrayList<>();
+            while (rs.next()) {
+                String nane = rs.getString("name");
+                Double price = rs.getDouble("price");
+                String descriptions = rs.getString("descriptions");
+                productDTOList.add(new ProductDTO(nane, price, descriptions));
+            }
+            return productDTOList;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 
 }

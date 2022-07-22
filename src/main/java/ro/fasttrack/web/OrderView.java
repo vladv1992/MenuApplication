@@ -2,7 +2,6 @@ package ro.fasttrack.web;
 
 import ro.fasttrack.menu.OrderDTO;
 import ro.fasttrack.service.OperationService;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,7 +17,6 @@ public class OrderView extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//              operationService.list();
 
         resp.setContentType("text/html;charset=UTF-8");
         PrintWriter out = resp.getWriter();
@@ -27,18 +25,16 @@ public class OrderView extends HttpServlet {
         out.println("</head>");
 
         out.println("<body>");
-        out.println("Istoric:<br />");
+        out.println("Historic:<br />");
         out.println("<table>");
-        // op1 op op2 result
-        out.println("<tr><th>op1</th><th>op</th><th>op2</th><th>result</th>");
-        //history[0] = "5 + 10 = 15"
-        // 5 + 10 15
+
+        out.println("<tr><th>Name order</th><th>Table order</th><th>Price order</th>");
 
         for (OrderDTO value : operationService.list()) {
             out.print("<tr>");
             out.print("<td>" + value.name_order() + "</td>");
-            out.print("<td>" + value.price_order() + "</td>");
-            out.print("<td>" + value.table_order()+ "</td>");
+            out.print("<td>" + value.table_order() + "</td>");
+            out.print("<td>" + value.price_order()+ "</td>");
             out.print("</tr>");
         }
         out.println("</table>");
@@ -47,11 +43,6 @@ public class OrderView extends HttpServlet {
         out.close();
     }
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
-
-    }
 
     @Override
     public void destroy() {
